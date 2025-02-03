@@ -72,7 +72,7 @@ END_MESSAGE_MAP()
 // CAutoFirmware 메시지 처리기
 
 
-BOOL CAutoFirmware::OnInitDialog()
+BOOL CAutoFirmware::OnInitDialog() // Git 0203 Test
 {
 	CDialog::OnInitDialog();
 	lpModelInfo = m_pApp->GetModelInfo();
